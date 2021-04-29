@@ -1,0 +1,211 @@
+.insure-logo{
+
+}
+.navbolimlari a{
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #837D88;
+}
+.navbolimlari li{
+  list-style:none;
+}
+.family{
+  background-color: #2D2641;
+}
+.family-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+.family-texts{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.view-plans{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.we-different{
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 64px;
+letter-spacing: -1px;
+color: #2C2830;
+}
+.imkoniyatlar{
+  list-style: none;
+}
+.snappy{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+}
+.snappy-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+  }
+.money-dollar{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+}
+.money-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+}
+.user{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+}
+.user-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+}
+.find-out-more-bg{
+  background-color: #2D2641;
+}
+.find-out{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  color: #FFFFFF;
+}
+.find-button{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer-bg{
+  background: #FAFAFA;
+}
+.footer-logo{
+
+}
+.sotset{
+  list-style: none;
+}
+.ourcompany{
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+color: #837D88;
+}
+.our-list li{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #2D2641;
+  list-style: none;
+}
+.our-list a{
+  text-decoration: none;
+}
+
+.helpme{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #837D88;
+}
+.helpme-list li{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #2D2641;
+  list-style: none;
+}
+.helpme-list a{
+  text-decoration: none;
+}
+.kontakt{
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+color: #837D88;
+}
+.kontakt-list li{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #2D2641;
+  list-style: none;
+}
+.kontakt-list a{
+  text-decoration: none;
+}
+.other{
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+color: #837D88;
+}
+.other-list{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #2D2641;
+  list-style: none;
+}
+.other-list a{
+  text-decoration: none;
+}
