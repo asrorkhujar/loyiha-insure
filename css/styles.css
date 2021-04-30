@@ -9,6 +9,7 @@
   line-height: 15px;
   letter-spacing: 1.5px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #837D88;
 }
 .navbolimlari li{
@@ -23,6 +24,7 @@
   font-size: 72px;
   line-height: 64px;
   letter-spacing: -1px;
+
   color: #FFFFFF;
 }
 .family-texts{
@@ -40,6 +42,7 @@
   text-align: center;
   letter-spacing: 1.5px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #FFFFFF;
 }
 .we-different{
@@ -107,6 +110,7 @@ color: #2C2830;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.777778px;
+
   color: #FFFFFF;
 }
 .find-button{
@@ -117,10 +121,15 @@ color: #2C2830;
   text-align: center;
   letter-spacing: 1.5px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #FFFFFF;
 }
 .footer-bg{
   background: #FAFAFA;
+
+}
+.footer-all{
+  text-transform: uppercase;
 }
 .footer-logo{
 
