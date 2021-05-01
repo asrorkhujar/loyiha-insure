@@ -87,8 +87,6 @@ display: flex;
   color: #FFFFFF;
 }
 .we-different{
-font-style: normal;
-font-weight: normal;
 font-size: 72px;
 line-height: 64px;
 letter-spacing: -1px;
@@ -100,41 +98,31 @@ color: #2C2830;
 .imkoniyatlar{
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .snappy{
-  font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.388889px;
   color: #2C2830;
 }
 .snappy-text{
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #837D88;
   }
 .money-dollar{
-  font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.388889px;
   color: #2C2830;
 }
 .money-text{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+    font-size: 16px;
   line-height: 26px;
   color: #837D88;
 }
 .user{
-  font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.388889px;
@@ -146,6 +134,15 @@ color: #2C2830;
   font-size: 16px;
   line-height: 26px;
   color: #837D88;
+}
+.chaqmoq{
+  width: 400px;
+}
+.pul{
+  width: 400px;
+}
+.odamcha{
+  width: 400px;
 }
 .find-out-more-bg{
   background-color: #2D2641;
