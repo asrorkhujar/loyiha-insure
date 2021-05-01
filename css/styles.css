@@ -1,9 +1,50 @@
+
+
+body{
+  background-color: #fff;
+  color: #837D88;
+  font-family: "Karla", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  margin: 50px;
+}
+.container{
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.site-header{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.family-text{
+  font-family: "DM Serif Display", "Times New Roman", serif;
+}
+.we-different{
+  font-family: "DM Serif Display", "Times New Roman", serif;
+}
+.imkoniyatlar h3{
+  font-family: "DM Serif Display", "Times New Roman", serif;
+}
+
+.find-out{
+  font-family: "DM Serif Display", "Times New Roman", serif;
+}
 .insure-logo{
 
 }
-.navbolimlari a{
+.navigator{
 
-  font-style: normal;
+}
+.navbolimlari{
+display: flex;
+}
+
+.navbolimlari a{
   font-weight: bold;
   font-size: 13px;
   line-height: 15px;
@@ -17,19 +58,19 @@
 }
 .family{
   background-color: #2D2641;
+  display: flex;
+}
+.family-alltexts{
+ justify-content: space-between;
+
 }
 .family-text{
-  font-style: normal;
-  font-weight: normal;
   font-size: 72px;
   line-height: 64px;
   letter-spacing: -1px;
-
   color: #FFFFFF;
 }
 .family-texts{
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
@@ -53,8 +94,13 @@ line-height: 64px;
 letter-spacing: -1px;
 color: #2C2830;
 }
+.features{
+
+}
 .imkoniyatlar{
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 .snappy{
   font-style: normal;
@@ -103,6 +149,13 @@ color: #2C2830;
 }
 .find-out-more-bg{
   background-color: #2D2641;
+  width: 1110px;
+height: 250px;
+left: 165px;
+top: 1617px;
+display: flex;
+justify-content: space-around;
+
 }
 .find-out{
   font-style: normal;
@@ -110,9 +163,8 @@ color: #2C2830;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.777778px;
-
   color: #FFFFFF;
-}
+  }
 .find-button{
   font-style: normal;
   font-weight: bold;
@@ -126,10 +178,17 @@ color: #2C2830;
 }
 .footer-bg{
   background: #FAFAFA;
-
+}
+.f-logo-sotset{
+  display: flex;
+  justify-content: space-between;
+}
+.sotset{
+  display: flex;
 }
 .footer-all{
   text-transform: uppercase;
+  background: #FAFAFA;
 }
 .footer-logo{
 
@@ -217,4 +276,11 @@ color: #837D88;
 }
 .other-list a{
   text-decoration: none;
+}
+.f-information{
+  display: flex;
+  justify-content: space-around;
+}
+.f-ourcomp{
+
 }
