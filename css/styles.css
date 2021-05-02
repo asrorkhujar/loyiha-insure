@@ -1,6 +1,4 @@
-
-
-body{
+body {
   background-color: #fff;
   color: #837D88;
   font-family: "Karla", "Arial", sans-serif;
@@ -9,42 +7,46 @@ body{
   display: block;
   margin: 50px;
 }
-.container{
+
+.container {
   max-width: 1110px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
   padding-right: 30px;
 }
-.site-header{
+
+.site-header {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
 }
-.family-text{
-  font-family: "DM Serif Display", "Times New Roman", serif;
-}
-.we-different{
-  font-family: "DM Serif Display", "Times New Roman", serif;
-}
-.imkoniyatlar h3{
+
+.family-text {
   font-family: "DM Serif Display", "Times New Roman", serif;
 }
 
-.find-out{
+.we-different {
   font-family: "DM Serif Display", "Times New Roman", serif;
 }
-.insure-logo{
 
-}
-.navigator{
-
-}
-.navbolimlari{
-display: flex;
+.imkoniyatlar h3 {
+  font-family: "DM Serif Display", "Times New Roman", serif;
 }
 
-.navbolimlari a{
+.find-out {
+  font-family: "DM Serif Display", "Times New Roman", serif;
+}
+
+.insure-logo {}
+
+.navigator {}
+
+.navbolimlari {
+  display: flex;
+}
+
+.navbolimlari a {
   font-weight: bold;
   font-size: 13px;
   line-height: 15px;
@@ -53,29 +55,35 @@ display: flex;
   text-transform: uppercase;
   color: #837D88;
 }
-.navbolimlari li{
-  list-style:none;
+
+.navbolimlari li {
+  list-style: none;
 }
-.family{
+
+.family {
   background-color: #2D2641;
   display: flex;
 }
-.family-alltexts{
- justify-content: space-between;
+
+.family-alltexts {
+  justify-content: space-between;
 
 }
-.family-text{
+
+.family-text {
   font-size: 72px;
   line-height: 64px;
   letter-spacing: -1px;
   color: #FFFFFF;
 }
-.family-texts{
+
+.family-texts {
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
 }
-.view-plans{
+
+.view-plans {
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -86,83 +94,97 @@ display: flex;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.we-different{
-font-size: 72px;
-line-height: 64px;
-letter-spacing: -1px;
-color: #2C2830;
-}
-.features{
 
+.we-different {
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2C2830;
 }
-.imkoniyatlar{
+
+.features {}
+
+.imkoniyatlar {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
-.snappy{
+
+.snappy {
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.388889px;
   color: #2C2830;
 }
-.snappy-text{
+
+.snappy-text {
   font-size: 16px;
   line-height: 26px;
   color: #837D88;
-  }
-.money-dollar{
+}
+
+.money-dollar {
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.388889px;
   color: #2C2830;
 }
-.money-text{
-    font-size: 16px;
+
+.money-text {
+  font-size: 16px;
   line-height: 26px;
   color: #837D88;
 }
-.user{
+
+.user {
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.388889px;
   color: #2C2830;
 }
-.user-text{
+
+.user-text {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #837D88;
 }
-.chaqmoq{
+
+.chaqmoq {
   width: 400px;
 }
-.pul{
+
+.pul {
   width: 400px;
 }
-.odamcha{
+
+.odamcha {
   width: 400px;
 }
-.find-out-more-bg{
+
+.find-out-more-bg {
   background-color: #2D2641;
   width: 1110px;
-height: 250px;
-left: 165px;
-top: 1617px;
-display: flex;
-justify-content: space-around;
+  height: 250px;
+  left: 165px;
+  top: 1617px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 }
-.find-out{
+
+.find-out {
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.777778px;
   color: #FFFFFF;
-  }
-.find-button{
+}
+
+.find-button {
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -173,48 +195,32 @@ justify-content: space-around;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.footer-bg{
+
+.footer-bg {
   background: #FAFAFA;
 }
-.f-logo-sotset{
+
+.f-logo-sotset {
   display: flex;
   justify-content: space-between;
 }
-.sotset{
+
+.sotset {
   display: flex;
 }
-.footer-all{
+
+.footer-all {
   text-transform: uppercase;
   background: #FAFAFA;
 }
-.footer-logo{
 
-}
-.sotset{
+.footer-logo {}
+
+.sotset {
   list-style: none;
 }
-.ourcompany{
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 15px;
-letter-spacing: 1.5px;
-color: #837D88;
-}
-.our-list li{
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 15px;
-  letter-spacing: 1.5px;
-  color: #2D2641;
-  list-style: none;
-}
-.our-list a{
-  text-decoration: none;
-}
 
-.helpme{
+.ourcompany {
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -222,7 +228,8 @@ color: #837D88;
   letter-spacing: 1.5px;
   color: #837D88;
 }
-.helpme-list li{
+
+.our-list li {
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -231,18 +238,21 @@ color: #837D88;
   color: #2D2641;
   list-style: none;
 }
-.helpme-list a{
+
+.our-list a {
   text-decoration: none;
 }
-.kontakt{
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 15px;
-letter-spacing: 1.5px;
-color: #837D88;
+
+.helpme {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #837D88;
 }
-.kontakt-list li{
+
+.helpme-list li {
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -251,18 +261,21 @@ color: #837D88;
   color: #2D2641;
   list-style: none;
 }
-.kontakt-list a{
+
+.helpme-list a {
   text-decoration: none;
 }
-.other{
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 15px;
-letter-spacing: 1.5px;
-color: #837D88;
+
+.kontakt {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #837D88;
 }
-.other-list{
+
+.kontakt-list li {
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -271,13 +284,37 @@ color: #837D88;
   color: #2D2641;
   list-style: none;
 }
-.other-list a{
+
+.kontakt-list a {
   text-decoration: none;
 }
-.f-information{
+
+.other {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #837D88;
+}
+
+.other-list {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #2D2641;
+  list-style: none;
+}
+
+.other-list a {
+  text-decoration: none;
+}
+
+.f-information {
   display: flex;
   justify-content: space-around;
 }
-.f-ourcomp{
 
-}
+.f-ourcomp {}
