@@ -20,6 +20,7 @@ body {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .family-text {
@@ -172,7 +173,9 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+}
+.find-out-more-text{
+width: 475px;
 }
 
 .find-out {
@@ -214,10 +217,13 @@ body {
   background: #FAFAFA;
 }
 
-.footer-logo {}
+.footer-logo-sotset{
+  align-items: center;
+}
 
 .sotset {
   list-style: none;
+  align-items: center;
 }
 
 .ourcompany {
@@ -241,6 +247,7 @@ body {
 
 .our-list a {
   text-decoration: none;
+  color: #2D2641;
 }
 
 .helpme {
@@ -264,8 +271,8 @@ body {
 
 .helpme-list a {
   text-decoration: none;
+  color: #2D2641;
 }
-
 .kontakt {
   font-style: normal;
   font-weight: bold;
@@ -284,11 +291,10 @@ body {
   color: #2D2641;
   list-style: none;
 }
-
 .kontakt-list a {
   text-decoration: none;
+  color: #2D2641;
 }
-
 .other {
   font-style: normal;
   font-weight: bold;
@@ -297,7 +303,6 @@ body {
   letter-spacing: 1.5px;
   color: #837D88;
 }
-
 .other-list {
   font-style: normal;
   font-weight: bold;
@@ -307,14 +312,12 @@ body {
   color: #2D2641;
   list-style: none;
 }
-
 .other-list a {
   text-decoration: none;
+  color: #2D2641;
 }
-
 .f-information {
   display: flex;
   justify-content: space-around;
 }
-
 .f-ourcomp {}
