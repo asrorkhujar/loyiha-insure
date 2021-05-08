@@ -1,3 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
 body {
   background-color: #fff;
   color: #837D88;
@@ -9,7 +20,7 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
@@ -23,9 +34,6 @@ body {
   align-items: center;
 }
 
-.family-text {
-  font-family: "DM Serif Display", "Times New Roman", serif;
-}
 
 .we-different {
   font-family: "DM Serif Display", "Times New Roman", serif;
@@ -59,29 +67,68 @@ body {
 
 .navbolimlari li {
   list-style: none;
+  margin-right: 30px;
+  margin-bottom: 31px; ;
 }
 
+.viev-plans-header a{
+  border: 2px solid rgb(0, 0, 0);
+  margin-right: 0px;
+  font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 1.5px;
+padding: 13px 28px;
+color: #2C2830;
+}
+
+/* HERO QISM */
+
 .family {
-  background-color: #2D2641;
-  display: flex;
+background-color: #2D2641;
+flex-grow: 1;
+align-items: center;
 }
 
 .family-alltexts {
-  justify-content: space-between;
-
+  width: 540px;
+  padding-top: 105px;
+  padding-bottom: 125px;
 }
 
 .family-text {
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
   font-size: 72px;
   line-height: 64px;
   letter-spacing: -1px;
   color: #FFFFFF;
+  margin-bottom: 30px ;
+  }
+
+.chiziq-one{
+  border-top: 1px solid #fff;
+  width: 150px;
 }
+/* .family-text::before{
+  content: "";
+  background-color: #fff;
+  border-top: 1px solid #fff;
+} */
+
 
 .family-texts {
-  font-size: 16px;
-  line-height: 26px;
-  color: #FFFFFF;
+font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+margin-bottom: 40px;
 }
 
 .view-plans {
@@ -94,16 +141,38 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #FFFFFF;
+border: 1px solid #fff;
+padding: 13px 28px;
 }
+
+/* .photo-family{
+
+background-image: url("../img/hero-people.jpg");
+background-size: 540px 650px;
+background-repeat: no-repeat;
+} */
+
+
+.family-alltexts:after{
+  content: "";
+background-image: url("../img/hero-people.jpg");
+background-size: 540px 650px;
+background-repeat: no-repeat;
+flex-shrink: 0;
+}
+
+/* FEATURES */
 
 .we-different {
-  font-size: 72px;
-  line-height: 64px;
-  letter-spacing: -1px;
-  color: #2C2830;
+font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 64px;
+letter-spacing: -1px;
+color: #2C2830;
 }
 
-.features {}
 
 .imkoniyatlar {
   list-style: none;
@@ -111,46 +180,32 @@ body {
   justify-content: space-around;
 }
 
-.snappy {
-  font-size: 28px;
-  line-height: 38px;
-  letter-spacing: -0.388889px;
-  color: #2C2830;
+.imkoniyatlar li h3{
+font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 38px;
+letter-spacing: -0.388889px;
+color: #2C2830;
 }
 
-.snappy-text {
-  font-size: 16px;
-  line-height: 26px;
-  color: #837D88;
+.imkoniyatlar li{
+  margin-right: 30px;
 }
 
-.money-dollar {
-  font-size: 28px;
-  line-height: 38px;
-  letter-spacing: -0.388889px;
-  color: #2C2830;
+.imkoniyatlar li:nth-child(3){
+  margin-right: 0;
+}
+.imkoniyatlar{
+  margin-top: 96px;
+  padding-left: 0;
 }
 
-.money-text {
-  font-size: 16px;
-  line-height: 26px;
-  color: #837D88;
+.we-different{
+  padding-top: 300px;
 }
 
-.user {
-  font-size: 28px;
-  line-height: 38px;
-  letter-spacing: -0.388889px;
-  color: #2C2830;
-}
-
-.user-text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  color: #837D88;
-}
 
 .chaqmoq {
   width: 400px;
@@ -166,13 +221,15 @@ body {
 
 .find-out-more-bg {
   background-color: #2D2641;
-  width: 1110px;
+  /* width: 1160px; */
   height: 250px;
   left: 165px;
   top: 1617px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 156px;
+  margin-bottom: 150px;
 }
 .find-out-more-text{
 width: 475px;
@@ -197,6 +254,8 @@ width: 475px;
   text-decoration: none;
   text-transform: uppercase;
   color: #FFFFFF;
+  border: 1px solid #fff;
+padding: 13px 28px;
 }
 
 .footer-bg {
@@ -206,19 +265,19 @@ width: 475px;
 .f-logo-sotset {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .sotset {
   display: flex;
 }
+.sotset li{
+  margin-left: 16px;
+}
 
 .footer-all {
   text-transform: uppercase;
   background: #FAFAFA;
-}
-
-.footer-logo-sotset{
-  align-items: center;
 }
 
 .sotset {
@@ -320,4 +379,6 @@ width: 475px;
   display: flex;
   justify-content: space-around;
 }
-.f-ourcomp {}
+.f-information ul{
+  padding: 0;
+}
