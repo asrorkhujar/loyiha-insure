@@ -47,9 +47,6 @@ body {
   font-family: "DM Serif Display", "Times New Roman", serif;
 }
 
-.insure-logo {}
-
-.navigator {}
 
 .navbolimlari {
   display: flex;
@@ -114,12 +111,6 @@ align-items: center;
   border-top: 1px solid #fff;
   width: 150px;
 }
-/* .family-text::before{
-  content: "";
-  background-color: #fff;
-  border-top: 1px solid #fff;
-} */
-
 
 .family-texts {
 font-family: Karla;
@@ -145,21 +136,33 @@ border: 1px solid #fff;
 padding: 13px 28px;
 }
 
-/* .photo-family{
+.photo-family{
 
+background-image: url("../img/hero-people.jpg");
+background-size: 540px 650px;
+background-repeat: no-repeat;
+width: 540px;
+height: 650px;
+background-position-x: 30px;
+background-position-y: 105px;
+}
+
+
+/* .family-alltexts:after{
+  display: block;
+  width: 540px;
+  height: 650px;
+  content: "";
 background-image: url("../img/hero-people.jpg");
 background-size: 540px 650px;
 background-repeat: no-repeat;
 } */
 
-
-.family-alltexts:after{
-  content: "";
-background-image: url("../img/hero-people.jpg");
-background-size: 540px 650px;
-background-repeat: no-repeat;
-flex-shrink: 0;
+.photo-family-and-texts{
+  display: flex;
 }
+
+
 
 /* FEATURES */
 
@@ -173,6 +176,36 @@ letter-spacing: -1px;
 color: #2C2830;
 }
 
+
+.chaqmoq li::before{
+  width: 86px;
+  height: 86px;
+  display: block;
+  content: "";
+  background-image: url("../img/lightning.svg");
+  background-size: 86px 86px;
+  background-repeat: no-repeat;
+}
+
+.pul li::before{
+  width: 86px;
+  height: 86px;
+  display: block;
+  content: "";
+  background-image: url("../img/money.svg");
+  background-size: 86px 86px;
+  background-repeat: no-repeat;
+}
+
+.odamcha li::before{
+  width: 86px;
+  height: 86px;
+  display: block;
+  content: "";
+  background-image: url("../img/user.svg");
+  background-size: 86px 86px;
+  background-repeat: no-repeat;
+}
 
 .imkoniyatlar {
   list-style: none;
@@ -266,25 +299,87 @@ padding: 13px 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .sotset {
   display: flex;
+  list-style: none;
+  align-items: center;
 }
 .sotset li{
   margin-left: 16px;
 }
 
+.sotset li:nth-child(1)::before{
+  width: 24px;
+  height: 24px;
+  display: block;
+  content: "";
+  background-image: url("../img/icon-facebook.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.sotset li:nth-child(2)::before{
+  width: 24px;
+  height: 24px;
+  display: block;
+  content: "";
+  background-image: url("../img/icon-twitter.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.sotset li:nth-child(3)::before{
+  width: 24px;
+  height: 24px;
+  display: block;
+  content: "";
+  background-image: url("../img/icon-pinterest.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+
+.sotset li:nth-child(4)::before{
+  width: 24px;
+  height: 24px;
+  display: block;
+  content: "";
+  background-image: url("../img/icon-instagram.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+
+
 .footer-all {
   text-transform: uppercase;
   background: #FAFAFA;
 }
-
-.sotset {
-  list-style: none;
-  align-items: center;
+.chiziq-foter{
+width: 1100px;
+height: 1px;
+background: #DADADA;
+transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
+.f-ourcomp{
+  width: 255px;
+}
+.helpme{
+  width: 255px;
+}
+
+.f-contact{
+  width: 255px;
+}
+
+.other{
+  width: 255px;
+}
 .ourcompany {
   font-style: normal;
   font-weight: bold;
@@ -377,8 +472,18 @@ padding: 13px 28px;
 }
 .f-information {
   display: flex;
-  justify-content: space-around;
+  padding-bottom: 55px ;
+  padding-top: 45px;
+
 }
 .f-information ul{
   padding: 0;
 }
+.f-information li{
+  margin-bottom: 16px;
+}
+
+.f-information h3{
+  margin-bottom: 36px;
+}
+
