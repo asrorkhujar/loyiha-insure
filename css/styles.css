@@ -112,6 +112,13 @@ align-items: center;
   width: 150px;
 }
 
+/* .family-text::before{
+  width: 50px;
+  background-image: 1px solid #fff;
+  background-position-y: 50px ;
+
+} */
+
 .family-texts {
 font-family: Karla;
 font-style: normal;
@@ -137,14 +144,14 @@ padding: 13px 28px;
 }
 
 .photo-family{
-
 background-image: url("../img/hero-people.jpg");
 background-size: 540px 650px;
 background-repeat: no-repeat;
 width: 540px;
 height: 650px;
-background-position-x: 30px;
-background-position-y: 105px;
+position: absolute;
+margin-left: 580px;
+margin-top: 105px;
 }
 
 
@@ -176,6 +183,14 @@ letter-spacing: -1px;
 color: #2C2830;
 }
 
+.we-different::before{
+  background-color: #9E96C6;
+  width: 150px;
+  height: 1px;
+  content: "";
+  display: block;
+  margin-bottom:100px ;
+}
 
 .chaqmoq li::before{
   width: 86px;
@@ -312,7 +327,7 @@ padding: 13px 28px;
   margin-left: 16px;
 }
 
-.sotset li:nth-child(1)::before{
+.sotset-facebook::before{
   width: 24px;
   height: 24px;
   display: block;
@@ -322,7 +337,7 @@ padding: 13px 28px;
   background-repeat: no-repeat;
 }
 
-.sotset li:nth-child(2)::before{
+.sotset-twitter::before{
   width: 24px;
   height: 24px;
   display: block;
@@ -332,7 +347,7 @@ padding: 13px 28px;
   background-repeat: no-repeat;
 }
 
-.sotset li:nth-child(3)::before{
+.sotset-pinterest::before{
   width: 24px;
   height: 24px;
   display: block;
@@ -343,7 +358,7 @@ padding: 13px 28px;
 }
 
 
-.sotset li:nth-child(4)::before{
+.sotset-instagram::before{
   width: 24px;
   height: 24px;
   display: block;
