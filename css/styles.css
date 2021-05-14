@@ -62,6 +62,11 @@ body {
   color: #837D88;
 }
 
+.navbolimlari a:hover{
+color: #2C2830;
+cursor: pointer;
+}
+
 .navbolimlari li {
   list-style: none;
   margin-right: 30px;
@@ -80,6 +85,15 @@ text-align: center;
 letter-spacing: 1.5px;
 padding: 13px 28px;
 color: #2C2830;
+transition: all 0.5s ease;
+}
+
+.viev-plans-header a:hover{
+background-color: #2C2830;
+color: #fff;
+border: 1.5px solid #2C2830;
+box-sizing: border-box;
+cursor: pointer;
 }
 
 /* HERO QISM */
@@ -141,6 +155,14 @@ margin-bottom: 40px;
   color: #FFFFFF;
 border: 1px solid #fff;
 padding: 13px 28px;
+transition: all 0.5s ease;
+}
+.view-plans:hover{
+cursor: pointer;
+background-color: #fff;
+color: #2C2830;
+border: 1.5px solid #2C2830;
+box-sizing: border-box;
 }
 
 .photo-family{
@@ -304,8 +326,16 @@ width: 475px;
   color: #FFFFFF;
   border: 1px solid #fff;
 padding: 13px 28px;
+transition: all 0.5s ease;
 }
 
+.find-button:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #2C2830;
+  border: 1.5px solid #2C2830;
+  box-sizing: border-box;
+  }
 .footer-bg {
   background: #FAFAFA;
 }
@@ -368,7 +398,10 @@ padding: 13px 28px;
   background-repeat: no-repeat;
 }
 
-
+.sotset li:hover{
+  cursor: pointer;
+  color: #2C2830;
+}
 
 .footer-all {
   text-transform: uppercase;
